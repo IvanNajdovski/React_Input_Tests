@@ -31,3 +31,16 @@
     transform: rotate(360deg);
   }
 }
+
+.Form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  & > * {
+    margin: 5px;
+    padding: 5px 20px;
+    border: none;
+    border-bottom: 1px solid #000;
+  }
+}
